@@ -1,0 +1,7 @@
+pandas==1.5.3
+numpy==1.23.5
+re==2.2.1
+Matplotlib==3.7.0
+Seaborn==0.12.2
+mysql.connector==8.1.0
+sqlalchemy==1.4.46
