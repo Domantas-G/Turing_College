@@ -16,3 +16,10 @@ main()
 # program will evaluate what is happening within the n % 2 == 0 as either true or false and simply return that to the main function.
 def is_even(n):
     return n % 2 == 0
+
+# To call the program only when it's main file being executed:
+def main():
+  pass
+
+if __name__ == '__main__':
+  main()
