@@ -262,3 +262,75 @@ df.to_csv(file_path, index=False)
 # data = pd.read_csv("cleaned_best_books_ever.csv")
 data = pd.read_csv("before_normalization.csv")
 df = pd.DataFrame(data)
+
+# Decorator Function that adds new dataframe into a list when a df is created:
+import functools
+import pandas as pd
+
+# Global list to store names of DataFrames
+dataframes_list = set()
+
+def track_dataframe(func):
+    """Decorator to track the name of the dataframe returned by the function."""
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
+        df = func(*args, **kwargs)
+        
+        # Assuming the first argument to the function is the name of the dataframe
+        df_name = args[0]
+        dataframes_list.add(df_name)
+        
+        return df
+    return wrapper
+
+# Example usage:
+@track_dataframe
+def create_dataframe(name, data):
+    return pd.DataFrame(data)
+
+# Test the decorator
+df1 = create_dataframe("df1", {"A": [1, 2], "B": [3, 4]})
+df2 = create_dataframe("df2", {"X": [5, 6], "Y": [7, 8]})
+dataframes_list
+
+# Example 10-9. The promos list is filled by the Promotion decorator
+Promotion = Callable[[Order], Decimal]
+
+promos: list[Promotion] = []  1
+
+
+def promotion(promo: Promotion) -> Promotion:  2
+    promos.append(promo)
+    return promo
+
+
+def best_promo(order: Order) -> Decimal:
+    """Compute the best discount available"""
+    return max(promo(order) for promo in promos)  3
+
+
+@promotion  4
+def fidelity(order: Order) -> Decimal:
+    """5% discount for customers with 1000 or more fidelity points"""
+    if order.customer.fidelity >= 1000:
+        return order.total() * Decimal('0.05')
+    return Decimal(0)
+
+
+@promotion
+def bulk_item(order: Order) -> Decimal:
+    """10% discount for each LineItem with 20 or more units"""
+    discount = Decimal(0)
+    for item in order.cart:
+        if item.quantity >= 20:
+            discount += item.total() * Decimal('0.1')
+    return discount
+
+
+@promotion
+def large_order(order: Order) -> Decimal:
+    """7% discount for orders with 10 or more distinct items"""
+    distinct_items = {item.product for item in order.cart}
+    if len(distinct_items) >= 10:
+        return order.total() * Decimal('0.07')
+    return Decimal(0)
