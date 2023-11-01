@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "de2-1-project"
+version = "0.1.0"
+description = "Transform, window, cross-correlate functions for using Python standard library."
+authors = ["Domantas G"]
+readme = "README.md"
+packages = [{include = "functions", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+numpy = "^1.26.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

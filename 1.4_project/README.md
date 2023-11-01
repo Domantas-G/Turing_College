@@ -58,6 +58,10 @@ runtime
 imdb_id
 imdb_score
 imdb_votes
+is_best_movie_by_year
+is_best_movie
+is_best_show_by_year
+is_best_show
 
 title_type Table:
 title_id (Foreign Key)

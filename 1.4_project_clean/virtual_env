@@ -1,0 +1,20 @@
+python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+python3 -m pip list
+python3 -m pip freeze
+pip freeze > requirements.txt
+
+deactivate
+
+pip install fastapi[all]
+pip install uvicorn
+pip install sqlalchemy
+pip install mysql-connector-python
+pip install mysql-connector
+pip install pandas
+pip install numpy
+pip install pydantic
+pip install matplotlib
+pip install seaborn

@@ -550,5 +550,3 @@ def serialize_id(df: pd.DataFrame, *args, id_field: str) -> pd.DataFrame:
     df[id_field] = df.groupby(list(args)).ngroup()
 
     return df
-
-    This is a basic calculation, a more sophisticated method for calculating could be implemented."""

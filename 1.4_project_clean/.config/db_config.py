@@ -1,0 +1,6 @@
+"""Connection detail for MySQL server."""
+username = "root"
+password = "Abrikosas*175*"
+host = "localhost"
+port = "3306"
+database = "books"
