@@ -1,0 +1,2 @@
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Backup weather_db_backup_2023111921.sql created successfully.

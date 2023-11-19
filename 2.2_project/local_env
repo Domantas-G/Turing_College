@@ -1,0 +1,26 @@
+In new directory where we want to work in for Python:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+Install packages:
+pip install fastapi[all] uvicorn sqlalchemy mysql-connector-python
+
+```
+python -m pip install
+OR
+pip install -r requirements.txt
+```
+
+To deactivate:
+
+```
+deactivate
+```
+
+```
+python3 -m pip list
+python3 -m pip freeze
+```

@@ -54,3 +54,30 @@ Every Week on Sunday at Midnight:
    To keep track of the cron jobs, you can redirect the output (stdout and stderr) to log files:
    0 \* \* \* _ /path/to/python3 /path/to/fetch_and_store_data.py >> /path/to/log/fetch_data.log 2>&1
    0 0 _ \* \* /path/to/python3 /path/to/run_analysis.py >> /path/to/log/analysis.log 2>&1
+
+Views:
+Temperature Statistics Views:
+
+Purpose: These views provide statistical analysis of temperatures, including maximum, minimum, and standard deviation, for different timeframes: today, yesterday, the current week, and the last seven days.
+Views: city_temperature_stats_today, city_temperature_stats_yesterday, city_temperature_stats_current_week, city_temperature_stats_last_seven_days.
+Functionality: Each view groups data by city and calculates the mentioned temperature statistics. These views help in understanding daily and weekly temperature fluctuations and identifying anomalies or trends.
+Extreme Temperature Views:
+
+Purpose: To identify cities experiencing the highest and lowest temperatures for each hour, day, and week.
+Views: min_max_temp_hourly, min_max_temp_daily, min_max_temp_weekly.
+Functionality: These views rank cities based on their temperatures and extract the city with the highest and the lowest temperature for each time period. They are instrumental in pinpointing extreme weather conditions and their geographic distribution.
+Rainfall Frequency Views:
+
+Purpose: To count the number of hours it rained in each city during the last day and week.
+Views: city_rain_stats.
+Functionality: These views calculate the count of distinct hours with rainfall for each city, giving an insight into the frequency of rainy conditions. They are crucial for understanding the rainfall patterns and planning activities that depend on weather conditions.
+Applications:
+Weather Forecasting and Analysis: These views are invaluable for meteorologists and researchers in analyzing weather patterns and forecasting.
+Urban Planning and Agriculture: Understanding temperature trends and rainfall patterns aids in urban development and agricultural planning.
+Public Awareness and Safety: These views can inform the public about extreme weather conditions, aiding in preparation and safety measures.
+Notes:
+The data is aggregated based on timestamps and city names.
+Temperature data is rounded to two decimal places where applicable for clarity.
+The views are designed for efficient querying and can be easily integrated into reporting tools or dashboards for real-time weather analytics.
+
+Ideally split out cronjobs by timeframes - i.e. 7 day window analytical / reporting functions all move to that job to recalculate only once a day. I opted to keep jobs running by type of functions they perform rather than by frequency that they need to run. But once the table would get bigger, this would need to change.
