@@ -1,2 +1,18 @@
 mysqldump: [Warning] Using a password on the command line interface can be insecure.
-Backup weather_db_backup_2023111921.sql created successfully.
+Backup weather_db_backup_2023111922.sql created successfully.
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Backup weather_db_backup_2023111923.sql created successfully at: 2023-11-19 23:17
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Backup weather_db_backup_2023111923.sql created successfully at: 2023-11-19 23:30
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Backup weather_db_backup_2023112022.sql created successfully at: 2023-11-20 22:30
+Deleting old backup: /Users/wxo508/scripts_testing/crontab_trial/db_backups//weather_db_backup_2023111915.sql
+Deleting old backup: /Users/wxo508/scripts_testing/crontab_trial/db_backups//weather_db_backup_2023111921.sql
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Backup weather_db_backup_2023112023.sql created successfully at: 2023-11-20 23:30
+Deleting old backup: /Users/wxo508/scripts_testing/crontab_trial/db_backups//weather_db_backup_2023111922.sql
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Backup weather_db_backup_2023112113.sql created successfully at: 2023-11-21 13:30
+Deleting old backup: /Users/wxo508/scripts_testing/crontab_trial/db_backups//weather_db_backup_2023111923.sql
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Backup weather_db_backup_2023112114.sql created successfully at: 2023-11-21 14:00

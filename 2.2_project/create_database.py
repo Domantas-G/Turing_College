@@ -2,6 +2,7 @@
 This script is designed for setting up and managing a database for weather data collection. 
 """
 import os
+
 import pandas as pd
 
 from setup.database_loader import DatabaseLoader
@@ -32,7 +33,7 @@ db_loader.remove_cities(["Kaunas"])
 OUTPUT_TABLE = "weather_data"
 current_path = os.path.dirname(os.path.abspath(__file__))
 
-csv_file_path = os.path.join(current_path, "src", "weather_data_results_2.csv")
+csv_file_path = os.path.join(current_path, "src", "weather_data_results.csv")
 weather_data = pd.read_csv(csv_file_path)
 
 db_loader.send_data(weather_data, OUTPUT_TABLE)

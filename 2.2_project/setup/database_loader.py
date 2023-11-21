@@ -16,10 +16,9 @@ from config.settings import (
 
 import mysql.connector
 from sqlalchemy import create_engine, text
-import setup.models as models
-
-from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
+
+import setup.models as models
 
 
 class DatabaseLoader:

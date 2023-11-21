@@ -1,0 +1,345 @@
+2023-11-19 22:17:03,575 - INFO - Started weather data retrieval.
+2023-11-19 22:17:03,692 - INFO - package: mysql.connector.plugins
+2023-11-19 22:17:03,693 - INFO - plugin_name: caching_sha2_password
+2023-11-19 22:17:03,695 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2023-11-19 22:17:03,755 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-19 22:17:04,217 - INFO - Weather data for Moscow sent to database.
+2023-11-19 22:17:04,228 - INFO - Weather data for London sent to database.
+2023-11-19 22:17:04,305 - INFO - Weather data for Istanbul sent to database.
+2023-11-19 22:17:04,307 - INFO - Execution Summary
+2023-11-19 22:17:04,307 - INFO - Timestamp: 2023-11-19 22:17:04
+2023-11-19 22:17:04,307 - INFO - Total elapsed time: 0 minutes, 0 seconds
+2023-11-19 23:06:24,885 - INFO - Started weather data retrieval.
+2023-11-19 23:06:24,914 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-19 23:06:25,252 - INFO - Weather data for Moscow sent to database.
+2023-11-19 23:06:25,325 - INFO - Weather data for Istanbul sent to database.
+2023-11-19 23:06:25,630 - INFO - Weather data for London sent to database.
+2023-11-19 23:06:25,673 - INFO - Weather data for Berlin sent to database.
+2023-11-19 23:06:25,680 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-19 23:06:26,038 - INFO - Weather data for Rome sent to database.
+2023-11-19 23:06:26,299 - INFO - Weather data for Kyiv sent to database.
+2023-11-19 23:06:26,463 - INFO - Weather data for Bucharest sent to database.
+2023-11-19 23:06:26,525 - INFO - Weather data for Madrid sent to database.
+2023-11-19 23:06:26,636 - INFO - Weather data for Paris sent to database.
+2023-11-19 23:06:26,814 - INFO - Weather data for Vienna sent to database.
+2023-11-19 23:06:26,896 - INFO - Weather data for Minsk sent to database.
+2023-11-19 23:06:27,030 - INFO - Weather data for Warsaw sent to database.
+2023-11-19 23:06:27,110 - INFO - Weather data for Hamburg sent to database.
+2023-11-19 23:06:27,243 - INFO - Weather data for Budapest sent to database.
+2023-11-19 23:06:27,546 - INFO - Weather data for Munich sent to database.
+2023-11-19 23:06:28,210 - INFO - Weather data for Kharkiv sent to database.
+2023-11-19 23:06:28,386 - INFO - Weather data for Belgrade sent to database.
+2023-11-19 23:06:28,413 - INFO - Weather data for Barcelona sent to database.
+2023-11-19 23:06:28,514 - INFO - Weather data for Milan sent to database.
+2023-11-19 23:06:29,231 - INFO - Weather data for Vilnius sent to database.
+2023-11-19 23:06:29,232 - INFO - Execution Summary
+2023-11-19 23:06:29,233 - INFO - Timestamp: 2023-11-19 23:06:29
+2023-11-19 23:06:29,233 - INFO - Total elapsed time: 0 minutes, 4 seconds
+2023-11-19 23:17:04,379 - INFO - Started weather data retrieval.
+2023-11-19 23:17:04,479 - INFO - package: mysql.connector.plugins
+2023-11-19 23:17:04,479 - INFO - plugin_name: caching_sha2_password
+2023-11-19 23:17:04,481 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2023-11-19 23:17:04,550 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-19 23:17:05,080 - INFO - Weather data for Moscow sent to database.
+2023-11-19 23:17:05,085 - INFO - Weather data for London sent to database.
+2023-11-19 23:17:05,159 - INFO - Weather data for Istanbul sent to database.
+2023-11-19 23:17:05,567 - INFO - Weather data for Berlin sent to database.
+2023-11-19 23:17:05,698 - INFO - Weather data for Madrid sent to database.
+2023-11-19 23:17:05,705 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-19 23:17:06,002 - INFO - Weather data for Kyiv sent to database.
+2023-11-19 23:17:06,140 - INFO - Weather data for Rome sent to database.
+2023-11-19 23:17:06,185 - INFO - Weather data for Bucharest sent to database.
+2023-11-19 23:17:06,498 - INFO - Weather data for Paris sent to database.
+2023-11-19 23:17:06,697 - INFO - Weather data for Vienna sent to database.
+2023-11-19 23:17:06,951 - INFO - Weather data for Warsaw sent to database.
+2023-11-19 23:17:06,965 - INFO - Weather data for Minsk sent to database.
+2023-11-19 23:17:07,292 - INFO - Weather data for Hamburg sent to database.
+2023-11-19 23:17:07,447 - INFO - Weather data for Budapest sent to database.
+2023-11-19 23:17:07,731 - INFO - Weather data for Barcelona sent to database.
+2023-11-19 23:17:08,302 - INFO - Weather data for Belgrade sent to database.
+2023-11-19 23:17:08,314 - INFO - Weather data for Kharkiv sent to database.
+2023-11-19 23:17:08,596 - INFO - Weather data for Munich sent to database.
+2023-11-19 23:17:08,676 - INFO - Weather data for Milan sent to database.
+2023-11-19 23:17:08,792 - INFO - Weather data for Vilnius sent to database.
+2023-11-19 23:17:08,794 - INFO - Execution Summary
+2023-11-19 23:17:08,794 - INFO - Timestamp: 2023-11-19 23:17:08
+2023-11-19 23:17:08,796 - INFO - Total elapsed time: 0 minutes, 4 seconds
+2023-11-19 23:30:03,906 - INFO - Started weather data retrieval.
+2023-11-19 23:30:03,969 - INFO - package: mysql.connector.plugins
+2023-11-19 23:30:03,969 - INFO - plugin_name: caching_sha2_password
+2023-11-19 23:30:03,974 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2023-11-19 23:30:04,003 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-19 23:30:04,564 - INFO - Weather data for London sent to database.
+2023-11-19 23:30:04,584 - INFO - Weather data for Moscow sent to database.
+2023-11-19 23:30:04,598 - INFO - Weather data for Istanbul sent to database.
+2023-11-19 23:30:04,862 - INFO - Weather data for Berlin sent to database.
+2023-11-19 23:30:05,127 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-19 23:30:05,342 - INFO - Weather data for Madrid sent to database.
+2023-11-19 23:30:05,433 - INFO - Weather data for Kyiv sent to database.
+2023-11-19 23:30:05,606 - INFO - Weather data for Rome sent to database.
+2023-11-19 23:30:05,845 - INFO - Weather data for Paris sent to database.
+2023-11-19 23:30:06,172 - INFO - Weather data for Minsk sent to database.
+2023-11-19 23:30:06,298 - INFO - Weather data for Vienna sent to database.
+2023-11-19 23:30:06,573 - INFO - Weather data for Bucharest sent to database.
+2023-11-19 23:30:06,680 - INFO - Weather data for Warsaw sent to database.
+2023-11-19 23:30:06,785 - INFO - Weather data for Hamburg sent to database.
+2023-11-19 23:30:07,162 - INFO - Weather data for Budapest sent to database.
+2023-11-19 23:30:07,263 - INFO - Weather data for Barcelona sent to database.
+2023-11-19 23:30:07,352 - INFO - Weather data for Belgrade sent to database.
+2023-11-19 23:30:07,704 - INFO - Weather data for Munich sent to database.
+2023-11-19 23:30:07,929 - INFO - Weather data for Kharkiv sent to database.
+2023-11-19 23:30:07,987 - INFO - Weather data for Milan sent to database.
+2023-11-19 23:30:08,188 - INFO - Weather data for Vilnius sent to database.
+2023-11-19 23:30:08,190 - INFO - Execution Summary
+2023-11-19 23:30:08,190 - INFO - Timestamp: 2023-11-19 23:30:08
+2023-11-19 23:30:08,190 - INFO - Total elapsed time: 0 minutes, 4 seconds
+2023-11-20 22:18:53,335 - INFO - Started weather data retrieval.
+2023-11-20 22:18:53,367 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 22:18:53,693 - INFO - Weather data for London sent to database.
+2023-11-20 22:18:53,698 - INFO - Weather data for Moscow sent to database.
+2023-11-20 22:18:53,748 - INFO - Weather data for Istanbul sent to database.
+2023-11-20 22:18:54,035 - INFO - Weather data for Berlin sent to database.
+2023-11-20 22:18:54,070 - INFO - Weather data for Madrid sent to database.
+2023-11-20 22:18:54,114 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-20 22:18:54,354 - INFO - Weather data for Rome sent to database.
+2023-11-20 22:18:54,359 - INFO - Weather data for Kyiv sent to database.
+2023-11-20 22:18:54,385 - INFO - Weather data for Bucharest sent to database.
+2023-11-20 22:18:54,678 - INFO - Weather data for Paris sent to database.
+2023-11-20 22:18:54,736 - INFO - Weather data for Vienna sent to database.
+2023-11-20 22:18:54,777 - INFO - Weather data for Minsk sent to database.
+2023-11-20 22:18:55,029 - INFO - Weather data for Warsaw sent to database.
+2023-11-20 22:18:55,058 - INFO - Weather data for Budapest sent to database.
+2023-11-20 22:18:55,292 - INFO - Weather data for Hamburg sent to database.
+2023-11-20 22:18:55,420 - INFO - Weather data for Belgrade sent to database.
+2023-11-20 22:18:55,459 - INFO - Weather data for Barcelona sent to database.
+2023-11-20 22:18:55,689 - INFO - Weather data for Munich sent to database.
+2023-11-20 22:18:56,004 - INFO - Weather data for Milan sent to database.
+2023-11-20 22:18:56,016 - INFO - Weather data for Vilnius sent to database.
+2023-11-20 22:18:56,204 - INFO - Weather data for Kharkiv sent to database.
+2023-11-20 22:18:56,205 - INFO - Execution Summary
+2023-11-20 22:18:56,205 - INFO - Timestamp: 2023-11-20 22:18:56
+2023-11-20 22:18:56,205 - INFO - Total elapsed time: 0 minutes, 2 seconds
+2023-11-20 22:30:06,302 - INFO - Started weather data retrieval.
+2023-11-20 22:30:06,413 - INFO - package: mysql.connector.plugins
+2023-11-20 22:30:06,413 - INFO - plugin_name: caching_sha2_password
+2023-11-20 22:30:06,415 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2023-11-20 22:30:06,483 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 22:30:06,878 - INFO - Weather data for London sent to database.
+2023-11-20 22:30:06,885 - INFO - Weather data for Istanbul sent to database.
+2023-11-20 22:30:06,897 - INFO - Weather data for Moscow sent to database.
+2023-11-20 22:30:07,278 - INFO - Weather data for Berlin sent to database.
+2023-11-20 22:30:07,353 - INFO - Weather data for Madrid sent to database.
+2023-11-20 22:30:07,905 - INFO - Weather data for Rome sent to database.
+2023-11-20 22:30:08,464 - INFO - Weather data for Bucharest sent to database.
+2023-11-20 22:30:08,919 - INFO - Weather data for Paris sent to database.
+2023-11-20 22:30:10,276 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-20 22:30:10,749 - INFO - Weather data for Vienna sent to database.
+2023-11-20 22:30:10,875 - INFO - Weather data for Kyiv sent to database.
+2023-11-20 22:30:11,131 - INFO - Weather data for Warsaw sent to database.
+2023-11-20 22:30:11,357 - INFO - Weather data for Hamburg sent to database.
+2023-11-20 22:30:11,540 - INFO - Weather data for Budapest sent to database.
+2023-11-20 22:30:12,005 - INFO - Weather data for Barcelona sent to database.
+2023-11-20 22:30:12,027 - INFO - Weather data for Belgrade sent to database.
+2023-11-20 22:30:12,139 - INFO - Weather data for Minsk sent to database.
+2023-11-20 22:30:12,484 - INFO - Weather data for Munich sent to database.
+2023-11-20 22:30:12,893 - INFO - Weather data for Vilnius sent to database.
+2023-11-20 22:30:14,436 - INFO - Weather data for Kharkiv sent to database.
+2023-11-20 22:30:14,580 - INFO - Weather data for Milan sent to database.
+2023-11-20 22:30:14,582 - INFO - Execution Summary
+2023-11-20 22:30:14,582 - INFO - Timestamp: 2023-11-20 22:30:14
+2023-11-20 22:30:14,582 - INFO - Total elapsed time: 0 minutes, 8 seconds
+2023-11-20 23:13:57,443 - INFO - Started weather data retrieval.
+2023-11-20 23:13:57,485 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:13:58,153 - INFO - Started weather data retrieval.
+2023-11-20 23:13:58,168 - INFO - Started weather data retrieval.
+2023-11-20 23:13:58,175 - INFO - Started weather data retrieval.
+2023-11-20 23:13:58,191 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:13:58,194 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:13:58,199 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:13:58,350 - ERROR - Istanbul generated an exception: A process in the process pool was terminated abruptly while the future was running or pending.
+2023-11-20 23:14:24,947 - INFO - Started weather data retrieval.
+2023-11-20 23:14:24,972 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:14:25,327 - INFO - Weather data for London sent to database.
+2023-11-20 23:14:25,332 - INFO - Weather data for Istanbul sent to database.
+2023-11-20 23:14:25,362 - INFO - Weather data for Moscow sent to database.
+2023-11-20 23:14:25,637 - INFO - Weather data for Madrid sent to database.
+2023-11-20 23:14:25,675 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-20 23:14:25,698 - INFO - Weather data for Berlin sent to database.
+2023-11-20 23:14:25,966 - INFO - Weather data for Rome sent to database.
+2023-11-20 23:14:26,010 - INFO - Weather data for Kyiv sent to database.
+2023-11-20 23:14:26,088 - INFO - Weather data for Bucharest sent to database.
+2023-11-20 23:14:26,346 - INFO - Weather data for Paris sent to database.
+2023-11-20 23:14:26,419 - INFO - Weather data for Minsk sent to database.
+2023-11-20 23:14:26,656 - INFO - Weather data for Vienna sent to database.
+2023-11-20 23:14:26,804 - INFO - Weather data for Hamburg sent to database.
+2023-11-20 23:14:27,000 - INFO - Weather data for Warsaw sent to database.
+2023-11-20 23:14:27,211 - INFO - Weather data for Budapest sent to database.
+2023-11-20 23:14:27,374 - INFO - Weather data for Barcelona sent to database.
+2023-11-20 23:14:27,390 - INFO - Weather data for Belgrade sent to database.
+2023-11-20 23:14:27,568 - INFO - Weather data for Munich sent to database.
+2023-11-20 23:14:27,735 - INFO - Weather data for Kharkiv sent to database.
+2023-11-20 23:14:27,785 - INFO - Weather data for Milan sent to database.
+2023-11-20 23:14:27,907 - INFO - Weather data for Vilnius sent to database.
+2023-11-20 23:14:27,908 - INFO - Execution Summary
+2023-11-20 23:14:27,908 - INFO - Timestamp: 2023-11-20 23:14:27
+2023-11-20 23:14:27,908 - INFO - Total elapsed time: 0 minutes, 2 seconds
+2023-11-20 23:30:06,190 - INFO - Started weather data retrieval.
+2023-11-20 23:30:06,250 - INFO - package: mysql.connector.plugins
+2023-11-20 23:30:06,251 - INFO - plugin_name: caching_sha2_password
+2023-11-20 23:30:06,256 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2023-11-20 23:30:06,292 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:30:06,730 - INFO - Weather data for Moscow sent to database.
+2023-11-20 23:30:06,737 - INFO - Weather data for Istanbul sent to database.
+2023-11-20 23:30:06,747 - INFO - Weather data for London sent to database.
+2023-11-20 23:30:07,109 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-20 23:30:07,143 - INFO - Weather data for Berlin sent to database.
+2023-11-20 23:30:07,545 - INFO - Weather data for Kyiv sent to database.
+2023-11-20 23:30:07,962 - INFO - Weather data for Madrid sent to database.
+2023-11-20 23:30:08,049 - INFO - Weather data for Bucharest sent to database.
+2023-11-20 23:30:08,392 - INFO - Weather data for Paris sent to database.
+2023-11-20 23:30:08,520 - INFO - Weather data for Minsk sent to database.
+2023-11-20 23:30:08,801 - INFO - Weather data for Vienna sent to database.
+2023-11-20 23:30:08,917 - INFO - Weather data for Rome sent to database.
+2023-11-20 23:30:09,008 - INFO - Weather data for Warsaw sent to database.
+2023-11-20 23:30:09,327 - INFO - Weather data for Hamburg sent to database.
+2023-11-20 23:30:09,429 - INFO - Weather data for Belgrade sent to database.
+2023-11-20 23:30:09,760 - INFO - Weather data for Barcelona sent to database.
+2023-11-20 23:30:09,894 - INFO - Weather data for Munich sent to database.
+2023-11-20 23:30:10,153 - INFO - Weather data for Kharkiv sent to database.
+2023-11-20 23:30:11,173 - INFO - Weather data for Milan sent to database.
+2023-11-20 23:30:11,450 - INFO - Weather data for Budapest sent to database.
+2023-11-20 23:30:11,848 - INFO - Weather data for Vilnius sent to database.
+2023-11-20 23:30:11,850 - INFO - Execution Summary
+2023-11-20 23:30:11,850 - INFO - Timestamp: 2023-11-20 23:30:11
+2023-11-20 23:30:11,850 - INFO - Total elapsed time: 0 minutes, 5 seconds
+2023-11-20 23:42:07,166 - INFO - Started weather data retrieval.
+2023-11-20 23:42:07,192 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:42:07,489 - INFO - Weather data for London sent to database.
+2023-11-20 23:42:07,493 - INFO - Weather data for Moscow sent to database.
+2023-11-20 23:42:07,567 - INFO - Weather data for Istanbul sent to database.
+2023-11-20 23:42:07,863 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-20 23:42:07,864 - INFO - Execution Summary
+2023-11-20 23:42:07,865 - INFO - Timestamp: 2023-11-20 23:42:07
+2023-11-20 23:42:07,865 - INFO - Total elapsed time: 0 minutes, 0 seconds
+2023-11-20 23:42:28,695 - INFO - Started weather data retrieval.
+2023-11-20 23:42:28,719 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:42:29,371 - INFO - Started weather data retrieval.
+2023-11-20 23:42:29,381 - INFO - Started weather data retrieval.
+2023-11-20 23:42:29,397 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:42:29,405 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:42:29,424 - INFO - Started weather data retrieval.
+2023-11-20 23:42:29,449 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-20 23:42:29,538 - ERROR - Istanbul generated an exception: A process in the process pool was terminated abruptly while the future was running or pending.
+2023-11-21 13:11:08,434 - INFO - Started weather data retrieval.
+2023-11-21 13:11:08,474 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-21 13:11:24,035 - INFO - Weather data for London sent to database.
+2023-11-21 13:11:24,041 - INFO - Weather data for Istanbul sent to database.
+2023-11-21 13:11:24,046 - INFO - Weather data for Moscow sent to database.
+2023-11-21 13:11:25,559 - INFO - Weather data for Madrid sent to database.
+2023-11-21 13:11:25,583 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-21 13:11:25,655 - INFO - Weather data for Berlin sent to database.
+2023-11-21 13:11:26,993 - INFO - Weather data for Kyiv sent to database.
+2023-11-21 13:11:27,036 - INFO - Weather data for Rome sent to database.
+2023-11-21 13:11:27,660 - INFO - Weather data for Bucharest sent to database.
+2023-11-21 13:11:29,346 - INFO - Weather data for Minsk sent to database.
+2023-11-21 13:11:29,354 - INFO - Weather data for Paris sent to database.
+2023-11-21 13:11:32,706 - INFO - Weather data for Vienna sent to database.
+2023-11-21 13:11:32,727 - INFO - Weather data for Warsaw sent to database.
+2023-11-21 13:11:34,722 - INFO - Weather data for Hamburg sent to database.
+2023-11-21 13:11:36,244 - INFO - Weather data for Belgrade sent to database.
+2023-11-21 13:11:36,320 - INFO - Weather data for Barcelona sent to database.
+2023-11-21 13:11:38,560 - INFO - Weather data for Budapest sent to database.
+2023-11-21 13:11:40,295 - INFO - Weather data for Milan sent to database.
+2023-11-21 13:11:40,298 - INFO - Weather data for Munich sent to database.
+2023-11-21 13:11:40,507 - INFO - Weather data for Kharkiv sent to database.
+2023-11-21 13:11:41,404 - INFO - Weather data for Vilnius sent to database.
+2023-11-21 13:11:41,404 - INFO - Execution Summary
+2023-11-21 13:11:41,404 - INFO - Timestamp: 2023-11-21 13:11:41
+2023-11-21 13:11:41,404 - INFO - Total elapsed time: 0 minutes, 32 seconds
+2023-11-21 13:13:18,516 - INFO - Started weather data retrieval.
+2023-11-21 13:13:18,516 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-21 13:13:19,736 - INFO - Weather data for Istanbul sent to database.
+2023-11-21 13:13:20,007 - INFO - Weather data for Moscow sent to database.
+2023-11-21 13:13:20,675 - INFO - Weather data for London sent to database.
+2023-11-21 13:13:20,803 - INFO - Execution Summary
+2023-11-21 13:13:20,803 - INFO - Timestamp: 2023-11-21 13:13:20
+2023-11-21 13:13:20,803 - INFO - Total elapsed time: 0 minutes, 2 seconds
+2023-11-21 13:16:22,968 - INFO - Started weather data retrieval.
+2023-11-21 13:16:22,968 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-21 13:16:24,115 - INFO - Weather data for Moscow sent to database.
+2023-11-21 13:16:24,139 - INFO - Weather data for London sent to database.
+2023-11-21 13:16:24,277 - INFO - Weather data for Istanbul sent to database.
+2023-11-21 13:16:24,402 - INFO - Execution Summary
+2023-11-21 13:16:24,402 - INFO - Timestamp: 2023-11-21 13:16:24
+2023-11-21 13:16:24,402 - INFO - Total elapsed time: 0 minutes, 1 seconds
+2023-11-21 13:30:06,345 - INFO - Started weather data retrieval.
+2023-11-21 13:30:06,419 - INFO - package: mysql.connector.plugins
+2023-11-21 13:30:06,420 - INFO - plugin_name: caching_sha2_password
+2023-11-21 13:30:06,420 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2023-11-21 13:30:06,454 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-21 13:30:07,919 - INFO - Weather data for London sent to database.
+2023-11-21 13:30:07,927 - INFO - Weather data for Moscow sent to database.
+2023-11-21 13:30:07,936 - INFO - Weather data for Istanbul sent to database.
+2023-11-21 13:30:08,593 - INFO - Weather data for Madrid sent to database.
+2023-11-21 13:30:08,629 - INFO - Weather data for Berlin sent to database.
+2023-11-21 13:30:08,712 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-21 13:30:17,690 - INFO - Weather data for Rome sent to database.
+2023-11-21 13:30:17,698 - INFO - Weather data for Kyiv sent to database.
+2023-11-21 13:30:17,873 - INFO - Weather data for Bucharest sent to database.
+2023-11-21 13:30:18,227 - INFO - Weather data for Paris sent to database.
+2023-11-21 13:30:18,313 - INFO - Weather data for Vienna sent to database.
+2023-11-21 13:30:18,491 - INFO - Weather data for Minsk sent to database.
+2023-11-21 13:30:18,798 - INFO - Weather data for Warsaw sent to database.
+2023-11-21 13:30:18,849 - INFO - Weather data for Hamburg sent to database.
+2023-11-21 13:30:19,254 - INFO - Weather data for Budapest sent to database.
+2023-11-21 13:30:19,491 - INFO - Weather data for Belgrade sent to database.
+2023-11-21 13:30:19,500 - INFO - Weather data for Barcelona sent to database.
+2023-11-21 13:30:19,715 - INFO - Weather data for Munich sent to database.
+2023-11-21 13:30:19,897 - INFO - Weather data for Milan sent to database.
+2023-11-21 13:30:20,148 - INFO - Weather data for Vilnius sent to database.
+2023-11-21 13:30:20,248 - INFO - Weather data for Kharkiv sent to database.
+2023-11-21 13:30:20,251 - INFO - Execution Summary
+2023-11-21 13:30:20,252 - INFO - Timestamp: 2023-11-21 13:30:20
+2023-11-21 13:30:20,252 - INFO - Total elapsed time: 0 minutes, 13 seconds
+2023-11-21 14:00:03,617 - INFO - Started weather data retrieval.
+2023-11-21 14:00:03,618 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-21 14:00:04,666 - INFO - Weather data for Istanbul sent to database.
+2023-11-21 14:00:04,679 - INFO - Weather data for Moscow sent to database.
+2023-11-21 14:00:04,696 - INFO - Weather data for London sent to database.
+2023-11-21 14:00:05,153 - INFO - Weather data for Berlin sent to database.
+2023-11-21 14:00:05,165 - INFO - Weather data for Madrid sent to database.
+2023-11-21 14:00:06,190 - INFO - Weather data for Saint Petersburg sent to database.
+2023-11-21 14:00:07,020 - INFO - Weather data for Bucharest sent to database.
+2023-11-21 14:00:07,885 - INFO - Weather data for Kyiv sent to database.
+2023-11-21 14:00:08,069 - INFO - Weather data for Rome sent to database.
+2023-11-21 14:00:08,373 - INFO - Weather data for Paris sent to database.
+2023-11-21 14:00:09,082 - INFO - Weather data for Minsk sent to database.
+2023-11-21 14:00:09,133 - INFO - Weather data for Vienna sent to database.
+2023-11-21 14:00:09,206 - INFO - Weather data for Warsaw sent to database.
+2023-11-21 14:00:12,804 - ERROR - Hamburg generated an exception: 'NoneType' object has no attribute 'empty'
+2023-11-21 14:00:12,807 - ERROR - Budapest generated an exception: 'NoneType' object has no attribute 'empty'
+2023-11-21 14:00:12,808 - ERROR - Belgrade generated an exception: 'NoneType' object has no attribute 'empty'
+2023-11-21 14:00:19,005 - INFO - Weather data for Munich sent to database.
+2023-11-21 14:00:21,485 - INFO - Weather data for Barcelona sent to database.
+2023-11-21 14:00:23,043 - INFO - Weather data for Milan sent to database.
+2023-11-21 14:00:23,053 - INFO - Weather data for Kharkiv sent to database.
+2023-11-21 14:00:23,820 - INFO - Weather data for Vilnius sent to database.
+2023-11-21 14:00:23,823 - INFO - Execution Summary
+2023-11-21 14:00:23,823 - INFO - Timestamp: 2023-11-21 14:00:23
+2023-11-21 14:00:23,823 - INFO - Total elapsed time: 0 minutes, 20 seconds
+2023-11-21 14:08:44,180 - INFO - Started weather data retrieval.
+2023-11-21 14:08:44,182 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-21 14:08:44,516 - INFO - Weather data for Istanbul sent to database.
+2023-11-21 14:08:44,519 - INFO - Weather data for London sent to database.
+2023-11-21 14:08:44,523 - INFO - Weather data for Moscow sent to database.
+2023-11-21 14:08:44,524 - INFO - Execution Summary
+2023-11-21 14:08:44,524 - INFO - Timestamp: 2023-11-21 14:08:44
+2023-11-21 14:08:44,524 - INFO - Total elapsed time: 0 minutes, 0 seconds
+2023-11-21 14:09:01,096 - INFO - Started weather data retrieval.
+2023-11-21 14:09:01,097 - INFO - Cities for weather retrieval: ['Istanbul', 'Moscow', 'London', 'Saint Petersburg', 'Berlin', 'Madrid', 'Kyiv', 'Rome', 'Bucharest', 'Paris', 'Minsk', 'Vienna', 'Warsaw', 'Hamburg', 'Budapest', 'Belgrade', 'Barcelona', 'Munich', 'Kharkiv', 'Milan', 'Vilnius']
+2023-11-21 14:09:03,390 - INFO - Weather data for Istanbul sent to database.
+2023-11-21 14:09:03,610 - INFO - Weather data for London sent to database.
+2023-11-21 14:09:03,615 - INFO - Weather data for Moscow sent to database.
+2023-11-21 14:09:03,747 - INFO - Execution Summary
+2023-11-21 14:09:03,747 - INFO - Timestamp: 2023-11-21 14:09:03
+2023-11-21 14:09:03,747 - INFO - Total elapsed time: 0 minutes, 2 seconds

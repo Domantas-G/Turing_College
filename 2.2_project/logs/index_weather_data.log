@@ -2,4 +2,19 @@ mysql: [Warning] Using a password on the command line interface can be insecure.
 Table	Op	Msg_type	Msg_text
 weather_db.weather_data	optimize	note	Table does not support optimize, doing recreate + analyze instead
 weather_db.weather_data	optimize	status	OK
-Weather_data reindexed successfully.
+Script executed and Views created successfully at: 2023-11-19 23:30
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Table	Op	Msg_type	Msg_text
+weather_db.weather_data	optimize	note	Table does not support optimize, doing recreate + analyze instead
+weather_db.weather_data	optimize	status	OK
+Script executed and Views created successfully at: 2023-11-20 22:30
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Table	Op	Msg_type	Msg_text
+weather_db.weather_data	optimize	note	Table does not support optimize, doing recreate + analyze instead
+weather_db.weather_data	optimize	status	OK
+Script executed and table weather_data re-indexed successfully at: 2023-11-20 23:30
+mysql: [Warning] Using a password on the command line interface can be insecure.
+Table	Op	Msg_type	Msg_text
+weather_db.weather_data	optimize	note	Table does not support optimize, doing recreate + analyze instead
+weather_db.weather_data	optimize	status	OK
+Script executed and table weather_data re-indexed successfully at: 2023-11-21 13:30

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script creates a database backup and deletes backups that are older than 24 hours. 
+
 # Import database settings
 source /Users/wxo508/scripts_testing/crontab_trial/config/settings.sh
 
@@ -11,7 +13,7 @@ BACKUP_NAME="weather_db_backup_$(date +\%Y\%m\%d\%H).sql"
 # Create a database backup
 mysqldump -u"$DATABASE_USERNAME" -p"$DATABASE_PASSWORD" -h"$DATABASE_HOST" -P"$DATABASE_PORT" "$DATABASE_NAME" > "$BACKUP_PATH/$BACKUP_NAME"
 
-echo "Backup $BACKUP_NAME created successfully."
+echo "Backup $BACKUP_NAME created successfully at: $(date '+%Y-%m-%d %H:%M')"
 
 
 # Deleting old backups
