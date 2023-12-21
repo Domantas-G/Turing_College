@@ -334,3 +334,5 @@ def large_order(order: Order) -> Decimal:
     if len(distinct_items) >= 10:
         return order.total() * Decimal('0.07')
     return Decimal(0)
+
+STATIC_PATH = Path(__file__).parent.absolute() / 'static'  
